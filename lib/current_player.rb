@@ -1,7 +1,8 @@
 def turn_count(board)
   counter = 0
   board.each do |c|
-    puts
+    puts ""
+    counter += 1
 end
 
 def current_player()
